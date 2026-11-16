@@ -16,7 +16,7 @@ const rooms = new Set();
 // ─────────────────────────────────────────────
 // JOB 1: Serve the frontend (public/index.html — HTML, CSS and JS in one file)
 // ─────────────────────────────────────────────
-app.use(express.static("public"));
+app.use(express.static("frontend"));
 
 // ─────────────────────────────────────────────
 // JOB 2: Create a room → backend generates the room ID
